@@ -8,8 +8,10 @@
 
 ## Live Demo
 
-- *(Add your deployed project link here)*
+- *(https://win-big-in-bitsky.netlify.app/)*
 
+ ## Git Hub
+- *(https://github.com/Jeetendra1605/Win_In_Big_Bitsky)*
 ---
 
 ## Project Overview
