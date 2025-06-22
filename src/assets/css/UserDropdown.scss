@@ -1,0 +1,58 @@
+.user-dropdown {
+  position: relative;
+z-index: 5;
+  .user-button {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 12px;
+    border: none;
+    box-shadow: 0 0 10px rgba(210, 0, 220, 0.4);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #FF00EE;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(210, 0, 220, 0.6);
+    }
+
+    .avatar-wrapper {
+      margin-right: 10px;
+
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #d200dc;
+        object-fit: cover;
+      }
+    }
+
+    .username {
+      font-weight: 600;
+      margin-right: 6px;
+      color: var(--white);
+    }
+
+    .icon {
+      font-size: 12px;
+    }
+  }
+
+  .dropdown-menu {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #1b1b1b;
+
+    .dropdown-item {
+      color: var(--white);
+      transition: background 0.2s ease;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}
