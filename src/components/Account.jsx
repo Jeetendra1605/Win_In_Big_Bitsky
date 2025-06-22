@@ -5,7 +5,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Tabs, Tab } from "@mui/material";
 import "../assets/css/Account.scss";
-import Skull from "../assets/images/skull.jpg";
+import Skull from "../assets/images/account-profile.jpg";
 import Win from "../assets/images/Big-win.png";
 import { LeftSvg, RightSvg, DisplayTest } from "../data/data";
 import { FaPlus } from "react-icons/fa";
